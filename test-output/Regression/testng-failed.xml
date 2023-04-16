@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Regression]" guice-stage="DEVELOPMENT">
+  <parameter name="User" value="AiiTE Academy"/>
+  <parameter name="browser" value="edge"/>
+  <test parallel="methods" name="Test02(failed)">
+    <classes>
+      <class name="com.aiite.pageexecution.SummaryExecution">
+        <methods>
+          <include name="mobileSearch3"/>
+          <include name="beforeTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.aiite.pageexecution.SummaryExecution -->
+    </classes>
+  </test> <!-- Test02(failed) -->
+</suite> <!-- Failed suite [Regression] -->

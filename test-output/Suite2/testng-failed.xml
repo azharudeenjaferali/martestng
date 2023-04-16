@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite2]" guice-stage="DEVELOPMENT">
+  <test parallel="methods" name="Test2(failed)">
+    <classes>
+      <class name="com.aiite.pageexecution.SummaryExecution">
+        <methods>
+          <include name="mobileSearch2"/>
+        </methods>
+      </class> <!-- com.aiite.pageexecution.SummaryExecution -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite2] -->

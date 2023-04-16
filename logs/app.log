@@ -1,0 +1,9 @@
+23:25:01.662 [main] ERROR com.aiite.basepackage.ClassB - This is an error message
+23:25:01.667 [main] FATAL com.aiite.basepackage.ClassB - This is a fatal message
+23:25:59.982 [main] INFO  com.aiite.pageexecution.ClassB - Logger
+07:43:22.976 [main] INFO  com.aiite.pageexecution.ClassB - Logger
+07:44:03.433 [main] DEBUG com.aiite.basepackage.ClassB - This is a debug message
+07:44:03.442 [main] INFO  com.aiite.basepackage.ClassB - This is an info message
+07:44:03.442 [main] WARN  com.aiite.basepackage.ClassB - This is a warn message
+07:44:03.442 [main] ERROR com.aiite.basepackage.ClassB - This is an error message
+07:44:03.443 [main] FATAL com.aiite.basepackage.ClassB - This is a fatal message
